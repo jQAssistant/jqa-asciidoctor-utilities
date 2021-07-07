@@ -1,4 +1,0 @@
-== jQAssistant Asciidoctor Utilities Version 1.4.0
-
-No Changes.
-

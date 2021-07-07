@@ -1,0 +1,10 @@
+
+= Asciidoctor Utilities
+
+
+== 1.6.0
+
+* Added overview of all concepts and constraints for each plugin
+* Renamed the stylesheep `rules2asciidoc-v2.xsl` to `rules2asciidoc.xsl`.
+* Smaller changes to generated Asciidoctor document to describe the
+  rules in a jQAssistant plugin.
