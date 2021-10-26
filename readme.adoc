@@ -1,7 +1,7 @@
 = jQAssistant Asciidoctor Utilities
 
 A collection of various stuff required by projects of the
-https://www.jqassistant.org[jQAssistant^] ecosystem to generate and
-to build the documentation of https://www.jqassistant.org[jQAssistant^].
+https://jqassistant.org[jQAssistant^] ecosystem to generate and
+to build the documentation of https://jqassistant.org[jQAssistant^].
 
-For more information on jQAssistant see https://www.jqassistant.org[^].
+For more information on jQAssistant see https://jqassistant.org[^].
