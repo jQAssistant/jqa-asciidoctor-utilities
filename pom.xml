@@ -85,14 +85,24 @@
                         <configuration>
                             <artifacts>
                                 <artifact>
-                                    <file>src/main/xsl/rules2asciidoc.xsl</file>
+                                    <file>src/main/xsl/plugin.xsl</file>
                                     <type>xsl</type>
-                                    <classifier>rules2asciidoc</classifier>
+                                    <classifier>plugin</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>src/main/xsl/plugin2asciidoc.xsl</file>
+                                    <file>src/main/xsl/rules.xsl</file>
                                     <type>xsl</type>
-                                    <classifier>plugin2asciidoc</classifier>
+                                    <classifier>rules</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>src/main/xsl/concept-summary.xsl</file>
+                                    <type>xsl</type>
+                                    <classifier>concept-summary</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>src/main/xsl/constraint-summary.xsl</file>
+                                    <type>xsl</type>
+                                    <classifier>constraint-summary</classifier>
                                 </artifact>
                             </artifacts>
                         </configuration>
