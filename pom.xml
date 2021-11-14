@@ -95,14 +95,19 @@
                                     <classifier>rules</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>src/main/xsl/concept-summary.xsl</file>
+                                    <file>src/main/xsl/group-summary.xsl</file>
                                     <type>xsl</type>
-                                    <classifier>concept-summary</classifier>
+                                    <classifier>group-summary</classifier>
                                 </artifact>
                                 <artifact>
                                     <file>src/main/xsl/constraint-summary.xsl</file>
                                     <type>xsl</type>
                                     <classifier>constraint-summary</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>src/main/xsl/concept-summary.xsl</file>
+                                    <type>xsl</type>
+                                    <classifier>concept-summary</classifier>
                                 </artifact>
                             </artifacts>
                         </configuration>

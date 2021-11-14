@@ -56,6 +56,10 @@ include::{docRoot}/<xsl:value-of select="$groupId"/>/<xsl:value-of select="$arti
 == Rules provided by the <xsl:value-of select="$pluginName"/>
 
         <xsl:for-each select="*:resource">
+include::{docRoot}/<xsl:value-of select="$groupId"/>/<xsl:value-of select="$artifactId"/>/asciidoc/jqassistant-rules/<xsl:value-of select="text()"/>-group-summary.adoc[]
+        </xsl:for-each>
+
+        <xsl:for-each select="*:resource">
 include::{docRoot}/<xsl:value-of select="$groupId"/>/<xsl:value-of select="$artifactId"/>/asciidoc/jqassistant-rules/<xsl:value-of select="text()"/>-constraint-summary.adoc[]
         </xsl:for-each>
 
