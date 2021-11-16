@@ -13,7 +13,7 @@
 
     <xsl:template match="*:group">
 [[<xsl:value-of select="@*:id"/>]]
-==== Group&#x00A0;`<xsl:value-of select="@*:id"/>`
+=== Group&#x00A0;`<xsl:value-of select="@*:id"/>`
         <xsl:if test="*:includeGroup">
 Includes groups:
             <xsl:for-each select="*:includeGroup">
@@ -50,7 +50,7 @@ Includes concepts:
         </xsl:variable>
 
 [[<xsl:value-of select="@*:id"/>]]
-==== <xsl:value-of select="$typeName"/>&#x00A0;`<xsl:value-of select="@*:id"/>`
+=== <xsl:value-of select="$typeName"/>&#x00A0;`<xsl:value-of select="@*:id"/>`
 <xsl:value-of select="$newline"/>
 
         <xsl:if test="*:deprecated">

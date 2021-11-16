@@ -73,43 +73,19 @@
                 </dependencies>
             </plugin>
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>build-helper-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>attach-artifacts</id>
+                        <id>attach-xsl</id>
                         <phase>package</phase>
                         <goals>
-                            <goal>attach-artifact</goal>
+                            <goal>single</goal>
                         </goals>
                         <configuration>
-                            <artifacts>
-                                <artifact>
-                                    <file>src/main/xsl/plugin.xsl</file>
-                                    <type>xsl</type>
-                                    <classifier>plugin</classifier>
-                                </artifact>
-                                <artifact>
-                                    <file>src/main/xsl/rules.xsl</file>
-                                    <type>xsl</type>
-                                    <classifier>rules</classifier>
-                                </artifact>
-                                <artifact>
-                                    <file>src/main/xsl/group-summary.xsl</file>
-                                    <type>xsl</type>
-                                    <classifier>group-summary</classifier>
-                                </artifact>
-                                <artifact>
-                                    <file>src/main/xsl/constraint-summary.xsl</file>
-                                    <type>xsl</type>
-                                    <classifier>constraint-summary</classifier>
-                                </artifact>
-                                <artifact>
-                                    <file>src/main/xsl/concept-summary.xsl</file>
-                                    <type>xsl</type>
-                                    <classifier>concept-summary</classifier>
-                                </artifact>
-                            </artifacts>
+                            <descriptors>
+                                <descriptor>src/main/assembly/xsl.xml</descriptor>
+                            </descriptors>
                         </configuration>
                     </execution>
                 </executions>
